@@ -42,6 +42,7 @@ class RawanShehab(Programmer, CompetitiveCoder, Volunteer):
             "DataAnalysis": {"Data Analysis with Python"},
             "CompetitiveProgramming": {"ECPC", "Codeforces", "LeetCode", "HackerRank"}
         }
-    
+
+
     def about_me(self):
         return "A passionate coder who builds efficient solutions, creates stunning designs with Canva, extracts insights through data analysis, and thrives in competitive programming challenges!"
