@@ -8,7 +8,7 @@
 
 </div>
 
-<hr>
+<hr></hr>
 
 ![tools_I_use](https://img.shields.io/badge/-%F0%9F%9A%80%20Tools%20I%20use-orange)
 ![semicolon](https://img.shields.io/badge/-%3A-orange)
@@ -19,3 +19,13 @@
 ![Vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white)
 
 ```python
+# tools_I_use organized
+
+class About(Me): 
+    my_tools = {  
+        "ProgrammingLanguages" : {"Python", "C++"},
+        "WebLanguages" : {"HTML", "CSS"},
+        "Concepts" : {"OOP"},
+        "Editors" : {"Visual Studio Code"},
+        "DesignTools" : {"Canva"}
+    }
