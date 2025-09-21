@@ -1,0 +1,14 @@
+name: Profile Summary Cards
+on:
+  schedule:
+    - cron: '0 0 * * *'  # يوميًا في منتصف الليل UTC
+  workflow_dispatch:  # يدوي
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Generate Cards
+      uses: theme-park-dev/profile-summary-cards@master
+      with:
+        CONFIG_FILE: ./.github/profile-summary-card-config.yml
